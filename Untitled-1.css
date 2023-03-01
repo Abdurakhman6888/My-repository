@@ -1,0 +1,340 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+li{
+    padding: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #171615;
+    padding: 15px;
+}
+.games{
+    background-image: url(Images/bg-wool-dark.png);
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.AddonsGames{
+    
+    background-color: white;
+    margin-top: 0px;
+    
+    
+    
+    text-align: center;
+    color: black;
+}
+.Minecraft{
+    margin-top: 100px;
+    margin-left: -300px;
+}
+.MineTEXT{
+    text-align: center;
+    vertical-align: middle;
+
+}
+header img{
+    width: 20%;
+    margin-left: -250px;
+}
+.butGet{
+    background-color: green;
+    color: white;
+    box-shadow: 10px 10px 10px black;
+    border: 0px;
+    font-size: 10px;
+    border: 0px;
+    
+    
+}
+.Welcome{
+    background-color: black;
+    color: white;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.Welcome img{
+    position: relative;
+}
+.Welcome h1{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 100px;
+    font-size: 40px;
+}
+.Welcome p{
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.Welcome button{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 100px;
+    background-color: green;
+    padding: 25px;
+    color: white;
+    font-size: 30px;
+    border: none;
+    box-shadow: 10px 10px 10px black;
+}
+.News{
+    color: black;
+}
+.perehod1{
+    background-image: url(Images/trans-top-darkwool.png);
+    
+    
+    height: 100px;
+}
+.perehod2{
+    background-image: url(Images/trans-bottom-darkwool.png);
+    height: 100px;
+    
+}
+.crossx{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.legends{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.legends div{
+    padding: 10px;
+}
+.crossx div{
+    padding: 10px;
+}
+.legendsimg img{
+    height: 308px;
+    width: 510px;
+}
+.crossimg img{
+    height: 308px;
+    width: 510px;
+}
+.legends a{
+    color: green;
+}
+
+.cross a{
+    color: green;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    
+}
+.cross{
+    width: 50%;
+}
+.crossimg{
+    width: 50%;
+}
+.legendsimg{
+    width: 50%;
+}
+.legendsa{
+    width: 50%;
+}
+.NewGames{
+    padding: 0% 18%;
+    background-image: url(Images/bg-lightwool.webp);
+    
+}
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: baseline;
+    padding: 50px;
+}
+.minegames {
+    display: none;
+    padding: 20px;
+}
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    
+    color: white;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+.jm{
+    color: green;
+}
+.md{
+    color: green;
+}
+.ml{
+    color: green;
+}
+.mr{
+    color: green;
+}
+.me{
+    color: green;
+}
+.linknext{
+    width: 45px;
+    height: 45px;
+}
+.linkprev{
+    width: 45px;
+    height: 45px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+.category img{
+    width: 60%;
+    position: absolute;
+    margin: 10px;
+}
+.comunity{
+    display: flex;
+    justify-content: center;
+}
+.mxc{
+    position: relative;
+    background-color: green;
+}
+body {
+    margin: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .containers {
+    position: relative;
+  }
+  .mynewsslides {
+    display: none;
+  }
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    
+    color: white;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+.socialsites{
+    background-color: black;
+    color: white;
+}
+.footers{background-color: #171615;}
+
+
+.ytb:hover{
+    color: red;
+}
+.ins:hover{
+    color: deeppink;
+}
+.fcb:hover{
+    color: rgb(63, 63, 250);
+}
+.twt:hover{
+    color: cyan;
+}
+.rdt:hover{
+    color: rgb(255, 132, 0);
+}
+.endfooter{
+    background-color: #313131;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: .725rem;
+    padding: 30px;
+    margin-left: 0px;
+    color: white;
+}
+
+.socialsites{
+    text-align: center;
+
+}
+.social i{
+    margin: 10px 20px;
+}
+.footers{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 64px 0;
+}
+.footers h2{
+    color: white;
+}
+.footers div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.footers img{
+    width: 50%;
+    padding: 20px;
+}
+.endfooter div{
+    padding: 0 110px;
+}
+.endfooter i{
+    color: white;
+    padding: 10px;
+}
+.community{   
+    text-align: center;
+}
+.sec_com{
+    padding: 0% 20%;
+}

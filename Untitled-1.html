@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Официальный сайт | Minecraft | Minecraft</title>
+    <link rel="stylesheet" href="Untitled-1.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+
+ integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+
+ crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/033d7be657.css" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="NAVS">
+            <li>
+                <a href="">Игры</a>
+            </li>
+            <li>
+                <a href="">Сообщество</a>
+            </li>
+            <li>
+                <a href="">Товары с символикой</a>
+            </li>
+            <li>
+                <a href="">Поддержка</a>
+            </li>
+        </nav>
+          
+            <img src="C:\Users\Abdu\Desktop\HTML\Minecraft SIte\Images\logo-minecraft.svg">
+        
+        <div class="butGet">
+            <br><button>Получить Minecraft</button>
+        </div>
+    </header>
+    <main>
+        <section class="Welcome">
+            
+                <img src="Images/home-hero-1200x600.webp" alt="">
+                <h1>ДОБРО ПОЖАЛОВАТЬ НА <br> ОФИЦИАЛЬНЫЙ САЙТ <br> MINECRAFT</h1>
+                <p>Новые игры, обновления и способы игры — приобщайся к<br> одному из самых больших игровых сообществ в мире и<br> начинай крафтить уже сегодня!</p>
+                <br><button>Получить Minbecraft</button>
+            
+        </section>
+        <section class="games">
+            <div class="AddonsGames">
+                <h1>ИГРЫ И АДДОНЫ MINECRAFT</h1>
+                
+                <div class="container">
+                    <a class="prev" onclick="plusSlides(-1)">
+                        <img class="linkprev" src="Images/link-arrow.svg">    
+                    </a>
+                <div class="minegames">
+                    <img src="Images/javamine.jpg" >
+                    <div>
+                        <a class="jm">MINECRAFT</a>
+                        <p>Исследуй собственный <br>уникальный мир, переживи <br>ночь и создай все, что только <br>сможешь вообразить!</p>
+                    </div>
+                </div>
+
+                <div class="minegames">
+                     <img src="Images/minedungeons.jpg" >
+                     <div>
+                        <a class="md">MINECRAFT<br>DUNGEONS</a>
+                        <p>Попробуй новую <br>приключенческую игру, <br>вдохновленную <br>классическими данжен-<br>кроулерами!</p>
+                    </div>
+                    </div>
+
+                <div class="minegames">
+                    <img src="Images/minelegends.webp" >
+                    <div>
+                        <a class="ml">MINECRAFT LEGENDS</a>
+                        <p>Раскрой все тайны в Minecraft <br>Legends, новой игре в жанре <br>экшн-стратегии.</p>
+                    </div>
+                </div>
+        
+                <div class="minegames">
+                    <img src="Images/Realms.jpg" >
+                    <div>
+                        <a class="mr">MINECRAFT: REALMS</a>
+                        <p>Играй с друзьями на <br>собственном сервере <br>Minecraft под управлением <br>Windows, Linux или Mac.</p>
+                    </div>
+                </div>
+
+                <div class="minegames">
+                    <img src="Images/educationedition.webp" >
+                    <div>
+                        <a class="me">MINECRAFT EDUCATION</a>
+                        <p>Учебная игровая платформа, <br>помогающая тысячам <br>преподавателей в более чем <br>100&nbsp;странах!</p>
+                    </div>
+                </div>
+        
+                
+                <a class="next" onclick="plusSlides(1)">
+                    <img class="linknext" src="Images/link-arrow.svg">
+                </a>
+
+                <script>
+                    let slideIndex = 1;
+                    showSlides(slideIndex);
+                    function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                    }
+                    function showSlides(n) {
+                        let i;
+                        let slides = document.getElementsByClassName("minegames");
+                        if (n > slides.length) {
+                            slideIndex = 1
+                        }
+                        if (n < 1) {
+                            slideIndex = slides.length
+                        }
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        slides[slideIndex-1].style.display = "block";
+                    }
+                </script>
+            </div>
+            <div class="News">
+                <h1>СВЕЖИЕ НОВОСТИ</h1>
+                <div>
+                    <div class="containers">
+                        <div class="newsslides">
+                            <img src="Images/News/goathorn-car.webp">
+                        </div>
+                    
+                        <div class="newsslides">
+                            <img src="Images/News/Minecraft_MegaManX_.net_440x250.webp">
+                        </div>
+                    
+                        <div class="newsslides">
+                            <img src="Images/News/1_19_4_440.webp">
+                        </div>
+                            
+                        <div class="newsslides">
+                            <img src="Images/News/Crocs_440x250.webp">
+                        </div>
+                            
+                        <a class="prev" onclick="plusSlides2(-1)">
+                            <img class="linkprev" src="Images/link-arrow.svg">
+                        </a>
+                        <a class="next" onclick="plusSlides2(1)">
+                            <img src="images/link-arrow.svg">
+                        </a>
+                    
+                    <script>
+                        let sslideIndex = 1;
+                        showSlides2(slideIndex);
+                        function plusSlides2(n) {
+                        showSlides2(slideIndex += n);
+                        }
+                        function showSlides2(n) {
+                            let i;
+                            let slides = document.getElementsByClassName("newsslides");
+                            if (n > slides.length) {
+                                slideIndex = 1
+                            }
+                            if (n < 1) {
+                                slideIndex = slides.length
+                            }
+                            for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";
+                            }
+                            slides[slideIndex-1].style.display = "block";
+                        }
+                    </script>
+                </div>
+            </div>
+        </section>
+        <section class="perehod1">
+            <!--Пустой блок переход-->
+        </section>
+        <section class="NewGames">
+            <div class="crossx">               
+                <div class="cross">
+                    <h1>ВЫБИРАЙ СВОЙ РЕЖИМ!</h1>
+                    <p>Поскорее примеряй новую коллекцию Crocs x Minecraft. В <br>ней представлены смелые блочные модели, созданные для <br>максимального комфорта в игре и вне ее.</p>
+                    <a href="">
+                        <img src="Images/link-arrow.svg" class="icon">
+                        Получить
+                    </a>
+                </div>
+                <div class="crossimg">
+                    <img src="Images/Minecraft-net_Crocs_promo_2023.webp">
+                </div>
+            
+            </div>
+            <div class="legends">
+                <div class="legendsimg">
+                    <img src="Images/MC-Homepage_Media-Block-0_MC-Legends_600x360.jpg">
+                </div>
+                <div class="legendsa">
+                    <h1>ОБЪЕДИНИ ВЕРХНИЙ МИР</h1>
+                    <p>Подними знамя, вдохнови союзников на победу над <br>хищными пиглинами и спаси Верхний мир. Дата выпуска: <br>18 апреля 2023 г.</p>
+                    <a href="">
+                        <img src="images/link-arrow.svg" class="icon">
+                        ПРЕДЗАКАЗ
+                    </a>             
+            </div>
+        </section>
+        <section class="perehod2">
+            <!--Пустой блок переход-->
+        </section>
+        <section class="sec_com">
+            <div class="community">
+                <h1>ПОСТРОЙКИ СООБЩЕСТВА</h1>
+                <p>Попробуй лучшие надстройки, модификации и другие возможности, <br>созданные невероятным сообществом Minecraft!</p>
+                <a href="">
+                    <img>
+                    ИСЛЕДУЙ
+                </a>
+                <div class="comunity">
+                    <div class="category">
+                        <img src="">
+                        <div class="mxc">
+                            <h2>КРОКС</h2>
+                            <p>Кросовки</p>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <img src="">
+                        <div>
+                            <h2>КРОКС</h2>
+                            <p>Кросовки</p>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <img src="">
+                        <div>
+                            <h2>КРОКС</h2>
+                            <p>Кросовки</p>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <img src="">
+                        <div>
+                            <h2>КРОКС</h2>
+                            <p>Кросовки</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    Больше
+                    
+                </div>
+                <p>Кросс-платформенная игра доступна для Xbox, PlayStation 4, Nintendo Switch, а также устройств с iOS, Android и Windows. Для кросс-платформенной игры нужна учетная запись Майкрософт. Для многопользовательской игры по сети на Xbox требуется Xbox Live Gold. Для многопользовательской игры по сети на PlayStation 4 требуется членство PlayStation Plus. Для многопользовательской игры по сети на Nintendo Switch требуется членство Nintendo Switch Online.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="socialsites">
+            <h2>ПОДПИСАТЬСЯ НА НОВОСТИ MINECRAFT</h2>
+            <div class="social">
+                
+                <i class="fa-brands fa-square-youtube" href="https://www.youtube.com/minecraft"></i>
+                <i class="fab fa-youtube fa-2x ytb"></i>
+                <i class="fab fa-instagram fa-2x ins"></i>
+                <i class="fab fa-facebook fa-2x fcb"></i>
+                <i class="fab fa-twitter fa-2x twt"></i>
+                <i class="fab fa-reddit fa-2x rdt"></i>    
+                        
+            </div>
+        </div>
+        <div class="footers">
+            <div >
+                <img src="C:\Users\Abdu\Desktop\HTML\Minecraft SIte\Images\Mojang2020Logo.png">
+                <a>
+                    Просмотреть условия и положения Mojang
+                </a>
+            </div>
+            <div>
+                <img src="C:\Users\Abdu\Desktop\HTML\Minecraft SIte\Images\Logo_ Xbox_Game_Studio.webp">
+            <a>
+                Просмотреть правила использования бренда и активов Mojang
+            </a>
+            </div>
+            <div>
+                <div>
+                    <h2>ИГРЫ</h2>
+                    <a href="">Minecraft</a>
+                    <a href="">Minecraft Dungeons</a>
+                    <a href="">Minecraft Legends</a>
+                    <a href="">Minecraft Education</a>
+                </div>
+                <div>
+                    <h2>СООБЩЕСТВО</h2>
+                    <a href="">Сообщество</a>
+                    <a href="">Учебный портал для авторов</a>
+                    <a href="">Карьера в Mojang Studios</a>
+                </div>
+            </div>
+            <div></div>
+            <div>
+
+            </div>
+        </div>
+        <div class="endfooter">
+            <div>
+                <i class="fas fa-globe-americas fa-2x"></i>
+                Русский
+                
+            </div>
+            
+            <div>
+                <a src="">Конфиденциальность и cookie-файлы</a>
+                <a src="">Условия использования</a>
+                <a src="">Товарные знаки</a>
+                <a src=""></a>
+                <p>© Корпорация Майкрософт (Microsoft Corporation), 2023</p>
+            </div>
+            <div>
+                <img src="Images/Logo_ Microsoft.svg">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
